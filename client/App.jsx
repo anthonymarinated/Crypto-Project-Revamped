@@ -49,7 +49,7 @@ const App = () => {
           ))}
         </div>
       )}
-      <FoodPicture />
+      {/* <FoodPicture /> */}
     </div>
   );
 };
