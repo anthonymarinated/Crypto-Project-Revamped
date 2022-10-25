@@ -4,6 +4,7 @@ import axios from "axios";
 // import "./styles.css";
 import FoodPicture from "./picturecomponent";
 import "regenerator-runtime/runtime";
+import List from "../components/todo";
 
 //asfsdf
 const App = () => {
@@ -49,6 +50,7 @@ const App = () => {
           ))}
         </div>
       )}
+      <List/>
       {/* <FoodPicture /> */}
     </div>
   );
